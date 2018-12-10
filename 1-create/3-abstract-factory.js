@@ -55,4 +55,4 @@
  BMW.prototype.getPrice = function() {}
  BMW.prototype.getSpeed = function() {}
 
- // 抽象工厂模式是设计模式中最丑想的一种，也是创建模式中唯一一种抽象化创建模式
+ // 抽象工厂模式是设计模式中最抽象的一种，也是创建模式中唯一一种抽象化创建模式

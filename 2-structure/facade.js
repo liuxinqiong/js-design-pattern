@@ -4,6 +4,8 @@
  * 兼容性统一封装
  */
 
+// 顺便学习下事件相关兼容性问题啦
+
 // 兼容方式绑定事件
 function addEvent(dom, type, fn) {
     // 支持DOM2级事件处理程序addEventListener

@@ -39,6 +39,7 @@ var ViewCommand = (function () {
         }
     }
     return function execute(msg) {
+        // 通过Object.prototype代理，主要是考虑到prototype中断的特殊情况
         msg.params = Object.prototype.toString.call(msg.param) === '[object Array]' ? msg.params : [msg.params]
         Action[msg.command].apply(Action, msg.params)
     }
